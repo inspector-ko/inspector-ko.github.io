@@ -1,0 +1,158 @@
+html,
+body {
+	font-size: 14px;
+	line-height: 22px;
+	color:#767676;
+	margin: 0 auto;
+	font-family: 'PT Sans';
+}
+h1 {
+	font-size: 40px;
+}
+@font-face {
+    font-family: OpenSans CondensedLight;
+    src: url(open-sans-cond-light.ttf);
+}
+a {
+	color: white;
+	font-family: 'PT Sans';
+}
+.all {
+	display: flex;
+	padding: 0 10px 0 10px;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header {
+	justify-content: space-around;
+	display:flex;
+	min-height:230px;
+	height: auto;
+	background-color:#dcdcdc;
+	flex-grow:1;
+	width:100%;
+}
+.menu{
+	min-height:80px;
+	max-height:150px;
+	height: auto;
+	background-color:#777777;
+	flex-grow:1;
+	width:100%;
+	text-align:center;
+}
+.slider{
+	min-height:430px;
+	max-height:470px;
+	background-color:#f9f9f9;
+	flex-grow:1;
+}
+.content{
+	display:flex;
+	min-height:560px;
+	max-height:785px;
+	flex-grow:1;
+	width: 980px;
+	margin: 0 auto;
+	padding: 0 10px 195px 10px;
+	justify-content: space-between;
+}
+.footer {
+	min-height:130px;
+	max-height:250px;
+	background-color:#777777;
+	flex-grow:1;
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+}
+.auto1000{
+	display:flex;
+	width:980px;
+	margin:0 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.auto1001{
+	display:flex;
+	width:980px;
+	margin:0 10px;
+	justify-content: space-between;
+}
+.f1  {
+	width: 290px;
+	color:#ffffff;
+	padding: 40px 0;
+}
+.f2 {
+	float:left;
+	padding-right: 20px;
+}
+.footul {
+	margin: 0;
+}
+.menul {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 30px;
+}
+.menul a {
+	text-decoration: none;
+}
+.menul a:hover {
+	text-decoration: underline;
+}
+.menul li{
+	display: inline;
+	padding-right: 10px;
+	color:#fff;
+}
+.footul li {
+	list-style-type: none;
+}
+.contacts {
+	font-family: OpenSans CondensedLight;
+	font-size:40px;
+	line-height: 45px;
+}
+.sidebar {
+	width: 350px;
+	background-color: #777777;
+	height: auto;
+	color: #fff;
+}
+.sidebarcontent {
+	padding: 0 70px 20px 40px;
+}
+.main {
+	width: 570px;
+}
+.main p {
+	display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 2em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.slider {
+	background: url(slider.png) no-repeat center -60px;
+	z-index:-100;
+}
+.date {
+	font-style: italic;
+}
+.news {
+	padding: 10px 0 0 0;
+}
+.news p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.archive {
+	float:right;
+	padding: 20px 0 0 0;
+}
